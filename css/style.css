@@ -1,0 +1,163 @@
+/*common style*/
+a {
+	text-decoration: none;
+	color: /*todo*/;
+}
+
+a:hover {
+	color: red;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: 400 ;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #EBB7E0;
+}
+
+/*Function Style*/
+.centered-content-container {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	max-width: 1170px;
+}
+
+/*Header*/
+.header {
+	margin: 39px 0 32px 0;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__contacts {
+	display: flex;
+	margin-left: 171px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.header__contacts-phone {
+	display: flex;
+	align-items: center;
+	margin-left: 113px;
+	color: #A63737;
+}
+
+.header__contacts-vk{
+	display: flex;
+	align-items: center;
+}
+
+.header__contacts-vk-text {
+	margin-left: 6px;
+}
+
+.header__contacts-phone-text {
+	margin-left: 6px;
+}
+
+/*Main section*/
+.quiz__title-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.quiz-quiz__title-subcontainer {
+	width: 600px;
+	align-self: flex-start;
+}
+
+.quiz__bg-photo {
+	position: absolute;
+	top: 0px;
+}
+
+.quiz__title {
+	margin-bottom: 27px;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.quiz__subtitle {
+	margin-bottom: 27px;
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.quiz__feature-container {
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: -315px;
+}
+
+.quiz__feature-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	margin-left: 60px;
+	padding-top: 16px;
+	width: 140px;
+	height: 117px;
+	border-radius: 40px;
+	background-color: rgba(252, 244, 244, 0.7);
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.quiz__feature-item:first-child {
+	margin-left: 0px;
+}
+
+.quiz__feature-item-text {
+	font-size: 14px;
+	line-height: 1.34;
+}
+
+.quiz__feature-item-text--width {
+	width: 112px;
+}
+
+.quiz__feature-item-text--widthsecond {
+	width: 91px;
+}
+
+.quiz__feature-icon{
+	margin-bottom: 4px;
+}
+
+.quiz__button-text{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.quiz__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+	height: 52px;
+	background-color: #D1433A;
+}
+
+.marquiz__container {
+	display: flex !important;
+	justify-content: start;
+}
+
+
+
+
+
+
+
+
