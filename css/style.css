@@ -26,7 +26,7 @@ body {
 	box-sizing: border-block;
 	font-family: 'Montserrat', sans-serif;
 	background-image:url(../img/bg-cover.jpg);
-	background-size: cover;
+	background-position:25% 15%;
 }
 
 /*Function Style*/
@@ -40,12 +40,11 @@ body {
 .header {
 	margin-bottom: 40px;
 	display: flex;
-	justify-content: space-between;
 }
 
 .header__contacts {
 	display: flex;
-	margin-right: 150px;
+	margin: 0 100px;
 	font-size: 14px;
 	font-weight: 500;
 }
@@ -139,7 +138,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-right: 0;
+		margin: 0;
 	}
 
 	.header__contacts-phone {
@@ -190,7 +189,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-right: 0;
+		margin: 0;
 	}
 
 	.header__contacts-phone {
@@ -232,7 +231,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-right: 0;
+		margin: 0;
 	}
 
 	.header__contacts-phone {
@@ -264,8 +263,12 @@ body {
 		padding: 15px 0px;
 	}
 
+	.header {
+		justify-content: space-between;
+	}
+
 	.header__contacts {
-		margin-right: 0;
+		margin: 0;
 	}
 }
 
