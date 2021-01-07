@@ -26,12 +26,12 @@ body {
 	box-sizing: border-block;
 	font-family: 'Montserrat', sans-serif;
 	background-image:url(../img/bg-cover.jpg);
-	background-position:25% 15%;
+	background-position:25% 20%;
 }
 
 /*Function Style*/
 .container {
-	max-width: 1320px;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding-top: 15px;
 }
@@ -40,6 +40,7 @@ body {
 .header {
 	margin-bottom: 40px;
 	display: flex;
+	padding: 0 20px;
 }
 
 .header__contacts {
@@ -70,6 +71,10 @@ body {
 }
 
 /*Main section*/
+.quiz {
+	padding:0 20px;
+}
+
 .quiz__title {
 	margin-bottom: 10px;
 	max-width: 800px;

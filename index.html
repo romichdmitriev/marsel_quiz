@@ -81,31 +81,32 @@
 		</main>
 	</div>
 
-	<script>(function(t, p) {if (!window.__marquiz) window.__marquiz = []; window.marquiz ? marquiz(t, p) : window.__marquiz.push([t, p]);})('Button', {id: '5ff21eedeef4a1004600efd5', buttonText: 'Пройти тест', bgColor: '#D1433A', textColor: '#ffffff', rounded: true, blicked: true})
+	<script>(function(t, p) {if (!window.__marquiz) window.__marquiz = []; window.marquiz ? marquiz(t, p) : window.__marquiz.push([t, p]);})('Button', {id: '5ff21eedeef4a1004600efd5', buttonText: 'Пройти тест', bgColor: '#D1433A', textColor: '#ffffff', rounded: true, shadow: 'rgba(209, 67, 58, 0.5)', blicked: true})
 	</script>
 
 	<!-- Marquiz script start -->
-		<script>
+	<script>
 		(function(w, d, s, o){
-		  if (!window.__marquiz) window.__marquiz=[];
-		  window.marquiz = function(){window.Marquiz ? Marquiz.add(arguments) : window.__marquiz.push(arguments)}
-		  var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {
-		    if (document.readyState !== 'loading') Marquiz.init(o);
-		    else document.addEventListener("DOMContentLoaded", function() {
-		      Marquiz.init(o);
-		    });
-		  };
-		  d.head.insertBefore(j, d.head.firstElementChild);
+		if (!window.__marquiz) window.__marquiz=[];
+		window.marquiz = function(){window.Marquiz ? Marquiz.add(arguments) : window.__marquiz.push(arguments)}
+		var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {
+			if (document.readyState !== 'loading') Marquiz.init(o);
+			else document.addEventListener("DOMContentLoaded", function() {
+			Marquiz.init(o);
+			});
+		};
+		d.head.insertBefore(j, d.head.firstElementChild);
 		})(window, document, 'script', {
-		    host: '//quiz.marquiz.ru',
-		    id: '5ff21eedeef4a1004600efd5',
-		    autoOpen: false,
-		    autoOpenFreq: 'once',
-		    openOnExit: false,
-		    disableOnMobile: false
-		  }
+			host: '//quiz.marquiz.ru',
+			id: '5ff21eedeef4a1004600efd5',
+			autoOpen: false,
+			autoOpenFreq: 'once',
+			openOnExit: true,
+			disableOnMobile: false
+		}
 		);
-		</script>
+	</script>
 	<!-- Marquiz script end -->
+	
 </body>
 </html>
